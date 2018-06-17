@@ -105,6 +105,8 @@ cc_library_static {
         "-Werror",
     ],
 
+    polly: false,
+
     local_include_dirs: ["."],
     static_libs: ["webp-headers"],
     export_static_lib_headers: ["webp-headers"],
@@ -190,6 +192,8 @@ cc_library_static {
         "-Wall",
         "-Werror",
     ],
+
+    polly: false,
 
     local_include_dirs: ["."],
     static_libs: ["webp-headers"],
